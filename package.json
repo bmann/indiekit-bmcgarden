@@ -1,5 +1,34 @@
 {
-  "dependencies": {
-    "@indiekit/indiekit": "^0.1.0-alpha.23"
-  }
+    "private": true,
+    "name": "indiekit-bmcgarden",
+    "version": "1.0.0",
+    "description": "Indiekit server for bmannconsulting.com",
+    "keywords": [
+        "indiekit",
+        "indieweb"
+    ],
+    "author": {
+        "name": "Boris Mann",
+        "url": "https://bmannconsulting.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/paulrobertlloyd/indiekit-bmcgarden.git"
+    },
+    "engines": {
+        "node": "14.x"
+    },
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "DEBUG=* node index.js"
+    },
+    "dependencies": {
+        "@indiekit/indiekit": "0.1.0-alpha.23",
+        "@indiekit/store-github": "0.1.0-alpha.22",
+        "@indiekit/syndicator-internet-archive": "0.1.0-alpha.22",
+        "@indiekit/syndicator-twitter": "0.1.0-alpha.22",
+        "dotenv": "^8.2.0",
+        "lodash": "^4.3.1"
+    }
 }
