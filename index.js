@@ -34,8 +34,8 @@ const postTypes = [
   type: 'note',
   name: 'Note',
   post: {
-    path: '_logs/{x}.md',
-    url: 'log/{x}/'
+    path: '_logs/{yyyy}{MM}{DD}-{hh}{mm}{a}.md',
+    url: 'log/{yyyy}{MM}{DD}-{hh}{mm}{a}/'
     }
   } 
 ];
