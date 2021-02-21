@@ -23,8 +23,8 @@ const postTypes = [
   type: 'article',
   name: 'Article',
   post: {
-    path: '_posts/blog/{yyyy}-{MM}-{dd}-{slug}.md',
-    url: 'blog/{yyyy}/{MM}/{slug}/'
+    path: '_notes/{slug}.md',
+    url: '/{slug}/'
     },
   media: {
     path: 'assets/{yyyy}/{MM}/{filename}',
@@ -34,8 +34,9 @@ const postTypes = [
   type: 'note',
   name: 'Note',
   post: {
-    path: '_notes/{slug}.md',
-    url: 'notes/{slug}/'
+    path: '_notes/{yyyy}-{MM}-{dd}-{HH}-{mm}.md',
+    url: '{yyyy}-{MM}-{dd}-{HH}-{mm}/',
+    title: '{MMMM} {Do}, {yyyy}: {h}:{mm}{a}'
     }
   } 
 ];
