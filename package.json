@@ -1,34 +1,5 @@
 {
-    "private": true,
-    "name": "indiekit-bmcgarden",
-    "version": "0.1.0",
-    "description": "IndieKit for bmannconsulting",
-    "keywords": [
-      "indieweb",
-      "micropub"
-    ],
-    "homepage": "https://getindiekit.com",
-    "author": {
-      "name": "Paul Robert Lloyd",
-      "url": "https://paulrobertlloyd.com"
-    },
-    "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/bmann/indiekit-bmcgarden"
-    },
-    "engines": {
-      "node": "14.x"
-    },
-    "scripts": {
-        "postinstall": "lerna bootstrap --no-ci && husky install",
-        "dev": "DEBUG=indiekit:* nodemon indiekit.config.js",
-        "start": node indiekit.config.js",
-    },
-    "dependencies": {
-        "dotenv": "^8.1.0"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.7"
-    }
+  "dependencies": {
+    "@indiekit/indiekit": "^0.1.0-alpha.23"
+  }
 }
