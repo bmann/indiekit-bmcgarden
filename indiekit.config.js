@@ -10,7 +10,7 @@ const github = new GithubStore({
   user: 'bmann', // Your username on GitHub
   repo: 'bmcgarden', // Repository files will be saved to
   branch: 'master', // Branch to publish to
-  token: $GHTOKEN // GitHub personal access token
+  //token: '' // GitHub personal access token
 });
 
 // Configure Jekyll publication preset
