@@ -44,6 +44,13 @@ const postTypes = [
       path: '_logs/{t}.md',
       url: 'log/{t}/'
       }
+  }, {
+    type: 'bookmark',
+    name: 'Bookmark',
+    post: {
+      path: '_logs/{t}.md',
+      url: 'log/{t}/'
+    }
   }  
 ];
 
