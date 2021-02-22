@@ -37,7 +37,14 @@ const postTypes = [
     path: '_logs/{yyyy}{MM}{dd}-{HH}{mm}.md',
     url: 'log/{yyyy}{MM}{dd}-{HH}{mm}/'
     }
-  } 
+  }, {
+    type: 'like',
+    name: 'Like',
+    post: {
+      path: '_logs/{t}.md',
+      url: 'log/{t}/'
+      }
+  }  
 ];
 
 const storeMessageTemplate = metaData => {
