@@ -28,7 +28,7 @@ const postTypes = [
     },
   media: {
     path: 'assets/{yyyy}/{MM}/{filename}',
-    url: 'assets/{yyyy}/{MM}/{filename}'
+    url: '/assets/{yyyy}/{MM}/{filename}'
     }
   }, {
   type: 'note',
